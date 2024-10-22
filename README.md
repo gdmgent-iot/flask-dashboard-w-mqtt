@@ -46,7 +46,7 @@ To set up this project, follow these steps:
     pip install -r requirements.txt
     ```
 
-6. **Set Up Environment Variables**:
+6. **Set Up Environment Variables - not necessary at this point**:
     Create a `.env` file in the root directory of the project and add your environment-specific variables. For example:
 
     ```env

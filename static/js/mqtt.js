@@ -20,6 +20,12 @@ client.on('connect', () => {
 // Listen for messages on the subscribed topic
 client.on('message', (topic, message) => {
     console.log(`Message received on topic ${topic}: ${message.toString()}`);
+
+    // This line selects the HTML element with the ID 'amount' and accesses its Alpine.js data property '$data'.
+    // It then sets the 'value' property of this data object to the integer representation of the 'message' string.
+    // 'parseInt(message.toString(), 10)' converts the 'message' to a string and then parses it as a base-10 integer.
+    document.querySelector('#amount').__x.$data.value = parseInt(message.toString(), 10);
+
     // Refresh the page when a message is received
-    location.reload();
+    // location.reload();
 });

@@ -7,5 +7,10 @@ app = Flask(__name__)
 def serve_index():
     return render_template('index.html')
 
+
+@app.route('/chartjs')
+def serve_chartjs():
+    return render_template('chartjs.html')
+
 if __name__ == "__main__":
     app.run(debug=True)

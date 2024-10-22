@@ -118,3 +118,14 @@ To set up this project, follow these steps:
     Make sure to include the generated `output.css` file in your HTML templates.
 
 That's it! Your project should now be set up with Tailwind CSS.
+
+
+# Further Reading
+
+- [Tailwind CSS Dashboards](https://taildashboards.com/)
+- [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+- [MQTT Documentation](https://mqtt.org/documentation)
+- [Flask-MQTT Extension](https://flask-mqtt.readthedocs.io/en/latest/)
+- [Bootstrap for Styling](https://getbootstrap.com/)
+- [Chart.js for Data Visualization](https://www.chartjs.org/)
+- [Font Awesome for Icons](https://fontawesome.com/)

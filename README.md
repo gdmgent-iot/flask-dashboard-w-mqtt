@@ -129,3 +129,5 @@ That's it! Your project should now be set up with Tailwind CSS.
 - [Bootstrap for Styling](https://getbootstrap.com/)
 - [Chart.js for Data Visualization](https://www.chartjs.org/)
 - [Font Awesome for Icons](https://fontawesome.com/)
+- [Chart.js for Data Visualization](https://www.chartjs.org/)
+- [Examples of Chart.js Charts](https://www.w3schools.com/ai/ai_chartjs.asp)

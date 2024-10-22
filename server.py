@@ -7,12 +7,8 @@ app = Flask(__name__)
 def serve_index():
     return render_template('index.html')
 
-<<<<<<< HEAD
-@app.route("/chartjs")
-=======
 
 @app.route('/chartjs')
->>>>>>> 15fc88d6ceef29d412c8fb28bfff428234e7f1e9
 def serve_chartjs():
     return render_template('chartjs.html')
 

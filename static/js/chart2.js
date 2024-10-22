@@ -51,4 +51,4 @@ const tempConfig = {
 };
 
 const tempCtx = document.getElementById("temperatureBarChart").getContext("2d");
-const temperatureBarChart = new Chart(ctx, config);
+const temperatureBarChart = new Chart(tempCtx, tempConfig);
